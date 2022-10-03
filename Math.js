@@ -1,0 +1,9 @@
+Math.ceil(x);
+Math.round(x);
+Math.floor(x);
+Math.pow(x,y);
+Math.sqrt(x);
+Math.abs(x);
+Math.random(x);
+Math.min(x);
+Math.max(x);
