@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Addition.css">
+    <title>Document</title>
+</head>
+<body>
+        <h3>Fill all the below fields</h3>
+        <input type="number" id="op1" placeholder="num 1">
+
+        <select id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+
+        <input type="number" id="op2" placeholder="num 2">
+        <button type="button" onclick="take_input()"> = </button>
+        <span id="result1"></span>
+        <br>
+        <br>
+        <h3>Enter the complete expression below.</h3>
+        <input type="text" id="exp" placeholder="expression">
+        <button type="button" onclick="eval_input()"> = </button>
+        <span id="result2"></span>
+
+    <script src="Addition.js"></script>
+</body>
+</html>
