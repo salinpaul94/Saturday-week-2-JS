@@ -40,5 +40,6 @@ function eval_input() {
         } 
     } catch(err) {
         document.getElementById('result2').innerHTML = err;
+        alert(err.message) // print the error message
     }
 }
